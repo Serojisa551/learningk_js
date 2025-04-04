@@ -1,0 +1,94 @@
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: initial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.container--main{
+    margin: 20px 100px;
+}
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    /*justify-content: center;*/
+    gap: 70px;
+    border: 1px solid crimson;
+    margin: 30px;
+    padding: 30px;
+    height: 79vh;
+    /*position: relative;*/
+}
+
+.border--item{
+    width: max-content;
+    /*margin: 30px 70px;*/
+    /*z-index: -1;*/
+    /*position: absolute;*/
+}
+
+.border--shape-radius{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.border--button-shape{
+    width: 100px;
+    height: 100px;
+}
+
+.border--square-radius{
+    color: red;
+}
+
+.border--button-square{
+    background: red;
+}
+
+.border--circle-radius{
+    color: blue;
+}
+
+.border--button-circle{
+    background: blue;
+    border-radius: 100%;
+}
+
+.border--triangle-radius{
+    color: yellow;
+}
+
+.border--button-triangle{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+}
+
+.selected {
+    border: 2px dashed #738000;
+}
+.selection-box {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.2);
+    pointer-events: none;
+}
+
+input{
+    border: none;
+}
